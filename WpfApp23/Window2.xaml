@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp23.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp23"
+        mc:Ignorable="d"
+        Title="Window2" Height="450" Width="800">
+    <Grid>
+        <Label Content="ЛОГИН" HorizontalAlignment="Left" Margin="25,10,0,0" VerticalAlignment="Top" Width="241" FontFamily="Times New Roman" Height="73"/>
+        <Label Content="ПАРОЛЬ" HorizontalAlignment="Left" Margin="25,161,0,0" VerticalAlignment="Top" Width="241" FontFamily="Times New Roman" Height="73"/>
+        <Label Content="ПРОВЕРКА " HorizontalAlignment="Left" Margin="25,249,0,0" VerticalAlignment="Top" Width="241" FontFamily="Times New Roman" Height="73"/>
+        <TextBox HorizontalAlignment="Left" Height="73" Margin="197,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564"/>
+        <TextBox HorizontalAlignment="Left" Height="73" Margin="197,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564"/>
+        <TextBox HorizontalAlignment="Left" Height="73" Margin="197,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="564"/>
+        <Button Content="Зарегистрироваться " HorizontalAlignment="Left" Margin="47,337,0,0" VerticalAlignment="Top" Width="714" Height="61"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,25 @@
+﻿<Window x:Class="WpfApp23.Window8"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp23"
+        mc:Ignorable="d"
+        Title="Window8" Height="450" Width="800">
+    <Grid>
+        <Label Content="Информация о водителях.&#xA;" HorizontalAlignment="Left" Margin="204,10,0,0" VerticalAlignment="Top" Height="40" Width="336" FontSize="20"/>
+        <Label Content="е323нн -  Предиров Сергей Анатольевич &#xA;Стаж - 11 лет&#xA;98 положительных отзывов &#xA;11 отрицательных отзывов" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" Height="74" Width="239" Background="#FF968AE4"/>
+        <Label Content="о723пр - Надоедов Сергей Андреевич &#xA;Стаж - 4 года&#xA;34 положительных отзывов &#xA;18 отрицательных" HorizontalAlignment="Left" Margin="10,178,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.193,-4.319" Height="85" Width="239" Background="#FF998FD8"/>
+        <Label Content="е323нн -  Погрелов Дмитрий Анатольевич&#xA;Стаж - 2 года&#xA;2 положительных отзывов &#xA;0 отрицательных отзывов" HorizontalAlignment="Left" Margin="289,99,0,0" VerticalAlignment="Top" Height="74" Width="239" Background="#FF7C6FCF"/>
+        <Label Content="е723пр - Зима Дарья Алексеевна &#xA;Стаж - 5 лет&#xA;47 положительных отзывов &#xA;17 отрицательных отзывов" HorizontalAlignment="Left" Margin="289,189,0,0" VerticalAlignment="Top" Height="74" Width="239" Background="#FF7B67FB"/>
+        <Label Content="н111еа - Белый Артем Артемович&#xA;Стаж - 1 год&#xA;4 положительных отзывов &#xA;0 отрицательных" HorizontalAlignment="Left" Margin="10,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.193,-4.319" Height="85" Width="239" Background="#FFA197E0"/>
+        <Label Content="н111еа - Надоедов Сергей Андреевич &#xA;Стаж - 4 года&#xA;34 положительных отзывов &#xA;18 отрицательных" HorizontalAlignment="Left" Margin="289,286,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.193,-4.319" Height="85" Width="239" Background="#FF7A67F3"/>
+        <Label Content="Черный автобус &#xA;30 свободных мест&#xA;500 кг выдержимого груза" HorizontalAlignment="Left" Margin="574,99,0,0" VerticalAlignment="Top" Height="74" Width="208" Background="#FF452CE2"/>
+        <Label Content="Черный автобус &#xA;25 свободных мест&#xA;500 кг выдержимого груза" HorizontalAlignment="Left" Margin="574,189,0,0" VerticalAlignment="Top" Height="74" Width="208" Background="#FF5D49DA"/>
+        <Label Content="Черный автобус &#xA;20 свободных мест&#xA;500 кг выдержимого груза" HorizontalAlignment="Left" Margin="574,286,0,0" VerticalAlignment="Top" Height="85" Width="208" Background="#FF5239EC"/>
+        <Label Content="Основной водитель" HorizontalAlignment="Left" Margin="10,55,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Помошник" HorizontalAlignment="Left" Margin="289,55,0,0" VerticalAlignment="Top" Width="239"/>
+        <Label Content="Описание автобуса" HorizontalAlignment="Left" Margin="574,55,0,0" VerticalAlignment="Top" Width="184"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp23.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp23"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="800">
+    <Grid>
+        <Label Content="Вопрос - Ответ" HorizontalAlignment="Left" Margin="10,5,0,0" VerticalAlignment="Top" Height="46" Width="260" FontFamily="Times New Roman" FontSize="36"/>
+        <Label Content="На самые часто задаваемые воросы по поводу Автовокзала,а так же билетов вы можете найти здесь.&#xA;Если вы не нашли ответ на ваш вопрос, вы можете задать его нам через Артема." HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top" Height="59" Width="772" FontFamily="Times New Roman" FontSize="16"/>
+        <Label Content="1.&#xA;Почему когда я смотрел цену белета у нее была одна цена,а когда я обновил страницу цена изменилась?&#xA;-Наша программа работает в реальном времени, и все цены и время билетов так же изменяются в реальном времени" HorizontalAlignment="Left" Margin="10,115,0,0" VerticalAlignment="Top" Width="772" Height="62"/>
+        <Label Content="2.&#xA;Мне нужно обязательно регистрироваться в вашей программе для того просматривать информацию и покупать билеты?&#xA;-Нет, это делать не обязательно, но все же мы советуем вам зарегестрироватьтся, для того чтобы ваши чеки и история просмотра&#xA;всегда  сохранялась на вашем аккаунте" HorizontalAlignment="Left" Margin="10,177,0,0" VerticalAlignment="Top" Height="80" Width="772"/>
+        <Label Content="3. Почему цены и время билетов изменяется?&#xA;- Все зависит об обстановки и случаях когда Водитель можеть здерживаться. ( Для большей информации обратитесь к Кассиру)" HorizontalAlignment="Left" Margin="10,276,0,0" VerticalAlignment="Top" Width="744" Height="57"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="23,338,0,0" VerticalAlignment="Top" Width="311" Height="71"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="385,333,0,0" VerticalAlignment="Top" Width="311" Height="71"/>
+
+    </Grid>
+</Window>
